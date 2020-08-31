@@ -27,5 +27,7 @@ namespace FIT5032_W04_ModelFirst.Models
     
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Unit> Units { get; set; }
+
+        public System.Data.Entity.DbSet<FIT5032_W04_ModelFirst.Models.Publisher> Publishers { get; set; }
     }
 }
